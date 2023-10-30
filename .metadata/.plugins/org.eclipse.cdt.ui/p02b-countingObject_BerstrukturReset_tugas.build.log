@@ -1,0 +1,10 @@
+10:58:09 **** Incremental Build of configuration Debug for project p02b-countingObject_BerstrukturReset_tugas ****
+make all 
+arm-none-eabi-size   p02b-countingObject_BerstrukturReset_tugas.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5692	     12	   1060	   6764	   1a6c	p02b-countingObject_BerstrukturReset_tugas.elf
+Finished building: default.size.stdout
+ 
+
+10:58:10 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

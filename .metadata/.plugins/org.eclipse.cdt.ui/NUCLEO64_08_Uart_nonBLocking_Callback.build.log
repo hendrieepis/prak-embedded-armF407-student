@@ -1,0 +1,10 @@
+10:55:31 **** Incremental Build of configuration Debug for project NUCLEO64_08_Uart_nonBLocking_Callback ****
+make all 
+arm-none-eabi-size   NUCLEO64_08_Uart_nonBLocking_Callback.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6812	     20	   1636	   8468	   2114	NUCLEO64_08_Uart_nonBLocking_Callback.elf
+Finished building: default.size.stdout
+ 
+
+10:55:31 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

@@ -1,0 +1,10 @@
+10:55:34 **** Incremental Build of configuration Debug for project NUCLEO64_18_ADC_INT_Callback ****
+make all 
+arm-none-eabi-size   NUCLEO64_18_ADC_INT_Callback.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24120	    476	   2044	  26640	   6810	NUCLEO64_18_ADC_INT_Callback.elf
+Finished building: default.size.stdout
+ 
+
+10:55:34 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

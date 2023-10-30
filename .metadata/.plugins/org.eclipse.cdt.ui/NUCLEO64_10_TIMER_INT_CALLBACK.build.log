@@ -1,0 +1,10 @@
+10:55:31 **** Incremental Build of configuration Debug for project NUCLEO64_10_TIMER_INT_CALLBACK ****
+make all 
+arm-none-eabi-size   NUCLEO64_10_TIMER_INT_CALLBACK.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8008	     20	   1692	   9720	   25f8	NUCLEO64_10_TIMER_INT_CALLBACK.elf
+Finished building: default.size.stdout
+ 
+
+10:55:31 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

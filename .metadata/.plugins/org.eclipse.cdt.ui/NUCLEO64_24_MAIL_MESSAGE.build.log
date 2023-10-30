@@ -1,0 +1,10 @@
+10:55:36 **** Incremental Build of configuration Debug for project NUCLEO64_24_MAIL_MESSAGE ****
+make all 
+arm-none-eabi-size   NUCLEO64_24_MAIL_MESSAGE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17680	    104	  17832	  35616	   8b20	NUCLEO64_24_MAIL_MESSAGE.elf
+Finished building: default.size.stdout
+ 
+
+10:55:36 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

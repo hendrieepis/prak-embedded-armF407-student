@@ -1,0 +1,11 @@
+10:58:05 **** Incremental Build of configuration Debug for project p02b-countingObject_withFunction2-struktur ****
+make all 
+arm-none-eabi-gcc -o "p02b-countingObject_withFunction2-struktur.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/hendri/MyWorkspace/workspaceAC6-F407/p02b-countingObject_withFunction2-struktur/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="p02b-countingObject_withFunction2-struktur.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld: ./src/main.o: in function `main':
+/home/hendri/MyWorkspace/workspaceAC6-F407/p02b-countingObject_withFunction2-struktur/Debug/../src/main.c:25: undefined reference to `MX_GPIO_Init'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:88: p02b-countingObject_withFunction2-struktur.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:58:05 Build Failed. 3 errors, 0 warnings. (took 332ms)
+

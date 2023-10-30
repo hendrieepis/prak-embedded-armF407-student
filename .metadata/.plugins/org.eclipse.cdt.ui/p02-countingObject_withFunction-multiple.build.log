@@ -1,0 +1,10 @@
+10:58:32 **** Incremental Build of configuration Debug for project p02-countingObject_withFunction-multiple ****
+make all 
+arm-none-eabi-size   p02-countingObject_withFunction-multiple.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5572	     12	   1060	   6644	   19f4	p02-countingObject_withFunction-multiple.elf
+Finished building: default.size.stdout
+ 
+
+10:58:33 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

@@ -1,0 +1,10 @@
+10:55:30 **** Incremental Build of configuration Debug for project NUCLEO64_06_Blinky_noDelay_Btn_nonBlocking ****
+make all 
+arm-none-eabi-size   NUCLEO64_06_Blinky_noDelay_Btn_nonBlocking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6140	     20	   1652	   7812	   1e84	NUCLEO64_06_Blinky_noDelay_Btn_nonBlocking.elf
+Finished building: default.size.stdout
+ 
+
+10:55:30 Build Finished. 0 errors, 0 warnings. (took 179ms)
+

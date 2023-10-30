@@ -1,0 +1,10 @@
+10:58:36 **** Incremental Build of configuration Debug for project p06C-SCH_Timer-tugas ****
+make all 
+arm-none-eabi-size   p06C-SCH_Timer-tugas.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13448	    108	   1580	  15136	   3b20	p06C-SCH_Timer-tugas.elf
+Finished building: default.size.stdout
+ 
+
+10:58:36 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

@@ -1,0 +1,10 @@
+10:55:34 **** Incremental Build of configuration Debug for project NUCLEO64_19_ADC_DMA_two_channel_v2 ****
+make all 
+arm-none-eabi-size   NUCLEO64_19_ADC_DMA_two_channel_v2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14404	    100	   2180	  16684	   412c	NUCLEO64_19_ADC_DMA_two_channel_v2.elf
+Finished building: default.size.stdout
+ 
+
+10:55:34 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

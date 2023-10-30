@@ -1,0 +1,13 @@
+10:46:15 **** Build of configuration Debug for project freeRTOS_01 ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/freeRTOS_01/inc" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f407xx.d" -MT"startup/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+arm-none-eabi-gcc "../src/hardwareinit.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/freeRTOS_01/inc" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hardwareinit.d" -MT"src/hardwareinit.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/hardwareinit.o"
+../src/hardwareinit.c:1:10: fatal error: stm32f4xx.h: No such file or directory
+    1 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:43: src/hardwareinit.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:46:15 Build Failed. 2 errors, 0 warnings. (took 184ms)
+

@@ -1,0 +1,10 @@
+13:49:35 **** Build of configuration Debug for project F4Disc-p05c-SEOS-Statetime-doorlock-reset ****
+make -j16 all 
+arm-none-eabi-size   F4Disc-p05c-SEOS-Statetime-doorlock-reset.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42656	    356	   9420	  52432	   ccd0	F4Disc-p05c-SEOS-Statetime-doorlock-reset.elf
+Finished building: default.size.stdout
+ 
+
+13:49:36 Build Finished. 0 errors, 0 warnings. (took 285ms)
+

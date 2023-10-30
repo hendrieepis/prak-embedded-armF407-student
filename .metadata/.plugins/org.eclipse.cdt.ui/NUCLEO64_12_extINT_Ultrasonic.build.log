@@ -1,0 +1,10 @@
+10:55:32 **** Incremental Build of configuration Debug for project NUCLEO64_12_extINT_Ultrasonic ****
+make all 
+arm-none-eabi-size   NUCLEO64_12_extINT_Ultrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10752	    100	   2068	  12920	   3278	NUCLEO64_12_extINT_Ultrasonic.elf
+Finished building: default.size.stdout
+ 
+
+10:55:32 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

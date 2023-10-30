@@ -1,0 +1,10 @@
+10:58:34 **** Incremental Build of configuration Debug for project p04a-SEOSObjectDetected ****
+make all 
+arm-none-eabi-size   p04a-SEOSObjectDetected.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12476	    108	   1524	  14108	   371c	p04a-SEOSObjectDetected.elf
+Finished building: default.size.stdout
+ 
+
+10:58:34 Build Finished. 0 errors, 0 warnings. (took 232ms)
+

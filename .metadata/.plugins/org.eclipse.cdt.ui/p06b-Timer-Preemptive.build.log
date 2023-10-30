@@ -1,0 +1,10 @@
+10:58:37 **** Incremental Build of configuration Debug for project p06b-Timer-Preemptive ****
+make all 
+arm-none-eabi-size   p06b-Timer-Preemptive.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8368	     12	   1220	   9600	   2580	p06b-Timer-Preemptive.elf
+Finished building: default.size.stdout
+ 
+
+10:58:37 Build Finished. 0 errors, 0 warnings. (took 230ms)
+

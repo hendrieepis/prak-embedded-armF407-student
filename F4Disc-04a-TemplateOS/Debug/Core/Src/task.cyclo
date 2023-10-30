@@ -1,0 +1,2 @@
+../Core/Src/task.c:14:6:Task_Init	1
+../Core/Src/task.c:20:6:Task_Run	3

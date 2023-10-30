@@ -1,0 +1,13 @@
+10:41:45 **** Build of configuration Debug for project DISC_HAL_SPIMaster ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/DISC_HAL_SPIMaster/inc" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f407xx.d" -MT"startup/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+arm-none-eabi-gcc "../src/mainSPIMasterv1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/DISC_HAL_SPIMaster/inc" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/mainSPIMasterv1.d" -MT"src/mainSPIMasterv1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/mainSPIMasterv1.o"
+../src/mainSPIMasterv1.c:2:10: fatal error: stm32f4xx_hal.h: No such file or directory
+    2 | #include "stm32f4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:31: src/mainSPIMasterv1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:41:46 Build Failed. 2 errors, 0 warnings. (took 181ms)
+

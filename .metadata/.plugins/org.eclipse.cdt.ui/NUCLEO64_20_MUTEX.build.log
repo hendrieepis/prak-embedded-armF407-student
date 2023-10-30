@@ -1,0 +1,10 @@
+10:55:35 **** Incremental Build of configuration Debug for project NUCLEO64_20_MUTEX ****
+make all 
+arm-none-eabi-size   NUCLEO64_20_MUTEX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13588	     64	  17408	  31060	   7954	NUCLEO64_20_MUTEX.elf
+Finished building: default.size.stdout
+ 
+
+10:55:35 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

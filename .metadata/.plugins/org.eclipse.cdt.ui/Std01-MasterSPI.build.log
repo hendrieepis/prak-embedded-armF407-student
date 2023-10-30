@@ -1,0 +1,13 @@
+10:46:12 **** Build of configuration Debug for project Std01-MasterSPI ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/Std01-MasterSPI/inc" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f4xx.d" -MT"startup/startup_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32f4xx.o" "../startup/startup_stm32f4xx.S"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DSTM32F40_41xxx -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/Std01-MasterSPI/inc" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+../src/main.c:12:10: fatal error: stm32f4xx.h: No such file or directory
+   12 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:25: src/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:46:13 Build Failed. 2 errors, 0 warnings. (took 182ms)
+

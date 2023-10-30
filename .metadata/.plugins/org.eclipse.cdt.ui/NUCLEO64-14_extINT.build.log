@@ -1,0 +1,10 @@
+10:55:29 **** Incremental Build of configuration Debug for project NUCLEO64-14_extINT ****
+make all 
+arm-none-eabi-size   NUCLEO64-14_extINT.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8328	     20	   1700	  10048	   2740	NUCLEO64-14_extINT.elf
+Finished building: default.size.stdout
+ 
+
+10:55:30 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

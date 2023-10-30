@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;F4Disc-p05a-SEOS-Statetime-traffic/Debug&apos;" deleteContents="false" description="Delete resource &apos;F4Disc-p05a-SEOS-Statetime-traffic/Debug&apos;" element1="/F4Disc-p05a-SEOS-Statetime-traffic/Debug" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1697609221698"/>
+</session>

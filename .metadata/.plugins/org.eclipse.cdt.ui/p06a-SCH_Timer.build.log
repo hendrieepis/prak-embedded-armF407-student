@@ -1,0 +1,10 @@
+10:58:36 **** Incremental Build of configuration Debug for project p06a-SCH_Timer ****
+make all 
+arm-none-eabi-size   p06a-SCH_Timer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8324	     12	   1236	   9572	   2564	p06a-SCH_Timer.elf
+Finished building: default.size.stdout
+ 
+
+10:58:37 Build Finished. 0 errors, 0 warnings. (took 232ms)
+

@@ -1,0 +1,69 @@
+10:50:08 **** Build of configuration Debug for project p2-multipleFIle ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/inc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/wm8994" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q256a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/exc7200" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/stmpe811" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ov2640" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/Common" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ampire480272" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ls016b8uy" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/s5k5cag" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/s25fl512s" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/cs43l22" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ampire640480" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ili9341" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/stmpe1600" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/st7789h2" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lsm303dlhc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ili9325" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ft6x06" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lis302dl" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/l3gd20" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/mfxstm32l152" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/otm8009a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lis3dsh" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/st7735" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q128a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q512a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ts3510" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/STM32F4-Discovery" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/CMSIS/device" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f407xx.d" -MT"startup/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+arm-none-eabi-gcc "../src/counter.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F407VGTx -DSTM32F4 -DSTM32F4DISCOVERY -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/inc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/HAL_Driver/Inc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/HAL_Driver/Inc/Legacy" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/wm8994" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q256a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/exc7200" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/stmpe811" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ov2640" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/Common" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ampire480272" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ls016b8uy" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/s5k5cag" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/s25fl512s" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/cs43l22" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ampire640480" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ili9341" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/stmpe1600" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/st7789h2" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lsm303dlhc" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ili9325" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ft6x06" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lis302dl" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/l3gd20" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/mfxstm32l152" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/otm8009a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/lis3dsh" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/st7735" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q128a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/n25q512a" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/Components/ts3510" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/Utilities/STM32F4-Discovery" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/CMSIS/core" -I"/home/hendri/MyWorkspace/workspaceAC6-F407/p2-multipleFIle/CMSIS/device" -O0 -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/counter.d" -MT"src/counter.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/counter.o"
+../src/counter.c: In function 'CounterUpdate':
+../src/counter.c:10:11: error: 'count' undeclared (first use in this function)
+   10 |         ++count;
+      |           ^~~~~
+../src/counter.c:10:11: note: each undeclared identifier is reported only once for each function it appears in
+../src/counter.c: In function 'counterShow':
+../src/counter.c:14:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   14 |         HAL_GPIO_WritePin(bar0_GPIO_Port,bar0_Pin,count & (1<<0));
+      |         ^~~~~~~~~~~~~~~~~
+../src/counter.c:14:27: error: 'bar0_GPIO_Port' undeclared (first use in this function)
+   14 |         HAL_GPIO_WritePin(bar0_GPIO_Port,bar0_Pin,count & (1<<0));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:14:42: error: 'bar0_Pin' undeclared (first use in this function)
+   14 |         HAL_GPIO_WritePin(bar0_GPIO_Port,bar0_Pin,count & (1<<0));
+      |                                          ^~~~~~~~
+../src/counter.c:14:51: error: 'count' undeclared (first use in this function)
+   14 |         HAL_GPIO_WritePin(bar0_GPIO_Port,bar0_Pin,count & (1<<0));
+      |                                                   ^~~~~
+../src/counter.c:15:27: error: 'bar1_GPIO_Port' undeclared (first use in this function)
+   15 |         HAL_GPIO_WritePin(bar1_GPIO_Port,bar1_Pin,count & (1<<1));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:15:42: error: 'bar1_Pin' undeclared (first use in this function)
+   15 |         HAL_GPIO_WritePin(bar1_GPIO_Port,bar1_Pin,count & (1<<1));
+      |                                          ^~~~~~~~
+../src/counter.c:16:27: error: 'bar2_GPIO_Port' undeclared (first use in this function)
+   16 |         HAL_GPIO_WritePin(bar2_GPIO_Port,bar2_Pin,count & (1<<2));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:16:42: error: 'bar2_Pin' undeclared (first use in this function)
+   16 |         HAL_GPIO_WritePin(bar2_GPIO_Port,bar2_Pin,count & (1<<2));
+      |                                          ^~~~~~~~
+../src/counter.c:17:27: error: 'bar3_GPIO_Port' undeclared (first use in this function)
+   17 |         HAL_GPIO_WritePin(bar3_GPIO_Port,bar3_Pin,count & (1<<3));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:17:42: error: 'bar3_Pin' undeclared (first use in this function)
+   17 |         HAL_GPIO_WritePin(bar3_GPIO_Port,bar3_Pin,count & (1<<3));
+      |                                          ^~~~~~~~
+../src/counter.c:18:27: error: 'bar4_GPIO_Port' undeclared (first use in this function)
+   18 |         HAL_GPIO_WritePin(bar4_GPIO_Port,bar4_Pin,count & (1<<4));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:18:42: error: 'bar4_Pin' undeclared (first use in this function)
+   18 |         HAL_GPIO_WritePin(bar4_GPIO_Port,bar4_Pin,count & (1<<4));
+      |                                          ^~~~~~~~
+../src/counter.c:19:27: error: 'bar5_GPIO_Port' undeclared (first use in this function)
+   19 |         HAL_GPIO_WritePin(bar5_GPIO_Port,bar5_Pin,count & (1<<5));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:19:42: error: 'bar5_Pin' undeclared (first use in this function)
+   19 |         HAL_GPIO_WritePin(bar5_GPIO_Port,bar5_Pin,count & (1<<5));
+      |                                          ^~~~~~~~
+../src/counter.c:20:27: error: 'bar6_GPIO_Port' undeclared (first use in this function)
+   20 |         HAL_GPIO_WritePin(bar6_GPIO_Port,bar6_Pin,count & (1<<6));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:20:42: error: 'bar6_Pin' undeclared (first use in this function)
+   20 |         HAL_GPIO_WritePin(bar6_GPIO_Port,bar6_Pin,count & (1<<6));
+      |                                          ^~~~~~~~
+../src/counter.c:21:27: error: 'bar7_GPIO_Port' undeclared (first use in this function)
+   21 |         HAL_GPIO_WritePin(bar7_GPIO_Port,bar7_Pin,count & (1<<7));
+      |                           ^~~~~~~~~~~~~~
+../src/counter.c:21:42: error: 'bar7_Pin' undeclared (first use in this function)
+   21 |         HAL_GPIO_WritePin(bar7_GPIO_Port,bar7_Pin,count & (1<<7));
+      |                                          ^~~~~~~~
+make: *** [src/subdir.mk:37: src/counter.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:50:08 Build Failed. 19 errors, 1 warnings. (took 233ms)
+

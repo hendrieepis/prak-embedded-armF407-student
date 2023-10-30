@@ -1,0 +1,10 @@
+10:55:37 **** Incremental Build of configuration Debug for project NUCLEO64_RTOS_UART_blocking ****
+make all 
+arm-none-eabi-size   NUCLEO64_RTOS_UART_blocking.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10648	     40	  17400	  28088	   6db8	NUCLEO64_RTOS_UART_blocking.elf
+Finished building: default.size.stdout
+ 
+
+10:55:37 Build Finished. 0 errors, 0 warnings. (took 188ms)
+

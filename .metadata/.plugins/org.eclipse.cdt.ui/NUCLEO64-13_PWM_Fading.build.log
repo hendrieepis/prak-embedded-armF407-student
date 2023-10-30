@@ -1,0 +1,10 @@
+10:55:29 **** Incremental Build of configuration Debug for project NUCLEO64-13_PWM_Fading ****
+make all 
+arm-none-eabi-size   NUCLEO64-13_PWM_Fading.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8392	     20	   1692	  10104	   2778	NUCLEO64-13_PWM_Fading.elf
+Finished building: default.size.stdout
+ 
+
+10:55:29 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

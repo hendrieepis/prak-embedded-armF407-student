@@ -1,0 +1,10 @@
+10:55:07 **** Incremental Build of configuration Debug for project NUCLEO64_01_blinky ****
+make all 
+arm-none-eabi-size   NUCLEO64_01_blinky.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6024	     20	   1636	   7680	   1e00	NUCLEO64_01_blinky.elf
+Finished building: default.size.stdout
+ 
+
+10:55:08 Build Finished. 0 errors, 0 warnings. (took 186ms)
+

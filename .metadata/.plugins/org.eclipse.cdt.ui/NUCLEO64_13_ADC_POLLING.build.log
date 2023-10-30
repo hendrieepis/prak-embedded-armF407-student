@@ -1,0 +1,10 @@
+10:55:32 **** Incremental Build of configuration Debug for project NUCLEO64_13_ADC_POLLING ****
+make all 
+arm-none-eabi-size   NUCLEO64_13_ADC_POLLING.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11088	    100	   2060	  13248	   33c0	NUCLEO64_13_ADC_POLLING.elf
+Finished building: default.size.stdout
+ 
+
+10:55:32 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

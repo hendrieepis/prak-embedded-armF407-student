@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;F4Disc-01b-ObjectCountingFunction&apos;" deleteContents="true" description="Delete resource &apos;F4Disc-01b-ObjectCountingFunction&apos;" element1="/F4Disc-01b-ObjectCountingFunction" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1698039457026"/>
+</session>

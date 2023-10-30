@@ -1,0 +1,10 @@
+10:55:31 **** Incremental Build of configuration Debug for project NUCLEO64_09_TIMER_Polling ****
+make all 
+arm-none-eabi-size   NUCLEO64_09_TIMER_Polling.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6900	     20	   1700	   8620	   21ac	NUCLEO64_09_TIMER_Polling.elf
+Finished building: default.size.stdout
+ 
+
+10:55:31 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

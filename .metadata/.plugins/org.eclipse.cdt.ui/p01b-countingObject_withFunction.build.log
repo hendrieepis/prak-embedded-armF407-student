@@ -1,0 +1,10 @@
+10:58:21 **** Incremental Build of configuration Debug for project p01b-countingObject_withFunction ****
+make all 
+arm-none-eabi-size   p01b-countingObject_withFunction.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5572	     12	   1124	   6708	   1a34	p01b-countingObject_withFunction.elf
+Finished building: default.size.stdout
+ 
+
+10:58:22 Build Finished. 0 errors, 0 warnings. (took 230ms)
+

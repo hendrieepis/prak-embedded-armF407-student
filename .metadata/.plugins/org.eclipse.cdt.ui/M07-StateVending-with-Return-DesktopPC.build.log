@@ -1,0 +1,15 @@
+10:43:45 **** Build of configuration Debug for project M07-StateVending-with-Return-DesktopPC ****
+make all 
+Building file: ../src/M06-StateVending-DesktopPC.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/M06-StateVending-DesktopPC.d" -MT"src/M06-StateVending-DesktopPC.o" -o "src/M06-StateVending-DesktopPC.o" "../src/M06-StateVending-DesktopPC.cpp"
+Finished building: ../src/M06-StateVending-DesktopPC.cpp
+ 
+Building target: M07-StateVending-with-Return-DesktopPC
+Invoking: GCC C++ Linker
+g++  -o "M07-StateVending-with-Return-DesktopPC" ./src/M06-StateVending-DesktopPC.o   
+Finished building target: M07-StateVending-with-Return-DesktopPC
+ 
+
+10:43:45 Build Finished. 0 errors, 0 warnings. (took 433ms)
+

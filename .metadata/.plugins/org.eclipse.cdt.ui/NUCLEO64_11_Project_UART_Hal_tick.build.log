@@ -1,0 +1,10 @@
+10:55:31 **** Incremental Build of configuration Debug for project NUCLEO64_11_Project_UART_Hal_tick ****
+make all 
+arm-none-eabi-size   NUCLEO64_11_Project_UART_Hal_tick.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8368	     20	   1716	  10104	   2778	NUCLEO64_11_Project_UART_Hal_tick.elf
+Finished building: default.size.stdout
+ 
+
+10:55:32 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

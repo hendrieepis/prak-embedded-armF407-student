@@ -1,0 +1,13 @@
+../Core/Src/main.c:63:5:_write	1
+../Core/Src/main.c:80:6:counterShow	1
+../Core/Src/main.c:90:6:CounterUpdate	1
+../Core/Src/main.c:94:6:CounterZero	1
+../Core/Src/main.c:98:9:sensorDetected	4
+../Core/Src/main.c:110:9:resetDetected	4
+../Core/Src/main.c:128:5:main	4
+../Core/Src/main.c:214:6:SystemClock_Config	3
+../Core/Src/main.c:260:13:MX_I2C1_Init	2
+../Core/Src/main.c:294:13:MX_I2S3_Init	2
+../Core/Src/main.c:328:13:MX_SPI1_Init	2
+../Core/Src/main.c:366:13:MX_GPIO_Init	1
+../Core/Src/main.c:505:6:Error_Handler	1

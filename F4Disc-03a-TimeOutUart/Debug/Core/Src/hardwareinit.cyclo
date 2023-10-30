@@ -1,0 +1,7 @@
+../Core/Src/hardwareinit.c:17:5:_write	1
+../Core/Src/hardwareinit.c:21:6:SystemClock_Config	3
+../Core/Src/hardwareinit.c:62:6:MX_I2C1_Init	2
+../Core/Src/hardwareinit.c:96:6:MX_I2S3_Init	2
+../Core/Src/hardwareinit.c:130:6:MX_SPI1_Init	2
+../Core/Src/hardwareinit.c:168:6:MX_GPIO_Init	1
+../Core/Src/hardwareinit.c:299:6:Error_Handler	1

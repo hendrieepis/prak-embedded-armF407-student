@@ -1,0 +1,2 @@
+../Core/Src/sensor.c:10:15:sensorDetected	16	static
+../Core/Src/sensor.c:24:15:resetDetected	16	static

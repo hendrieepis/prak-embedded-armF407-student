@@ -1,0 +1,10 @@
+10:55:33 **** Incremental Build of configuration Debug for project NUCLEO64_15_ADC_2Channel_sequence ****
+make all 
+arm-none-eabi-size   NUCLEO64_15_ADC_2Channel_sequence.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    476	   2076	  26544	   67b0	NUCLEO64_15_ADC_2Channel_sequence.elf
+Finished building: default.size.stdout
+ 
+
+10:55:33 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

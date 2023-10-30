@@ -1,0 +1,10 @@
+10:55:30 **** Incremental Build of configuration Debug for project NUCLEO64_07_UartBlocking ****
+make all 
+arm-none-eabi-size   NUCLEO64_07_UartBlocking.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6636	     36	   1636	   8308	   2074	NUCLEO64_07_UartBlocking.elf
+Finished building: default.size.stdout
+ 
+
+10:55:31 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

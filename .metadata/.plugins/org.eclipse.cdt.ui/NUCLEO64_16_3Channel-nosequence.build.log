@@ -1,0 +1,10 @@
+10:55:33 **** Incremental Build of configuration Debug for project NUCLEO64_16_3Channel-nosequence ****
+make all 
+arm-none-eabi-size   NUCLEO64_16_3Channel-nosequence.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23704	    476	   2084	  26264	   6698	NUCLEO64_16_3Channel-nosequence.elf
+Finished building: default.size.stdout
+ 
+
+10:55:33 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

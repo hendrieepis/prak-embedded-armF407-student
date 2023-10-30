@@ -1,0 +1,10 @@
+10:58:22 **** Incremental Build of configuration Debug for project p01c-countingObject_withReset_tugas ****
+make all 
+arm-none-eabi-size   p01c-countingObject_withReset_tugas.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5692	     12	   1124	   6828	   1aac	p01c-countingObject_withReset_tugas.elf
+Finished building: default.size.stdout
+ 
+
+10:58:22 Build Finished. 0 errors, 0 warnings. (took 232ms)
+

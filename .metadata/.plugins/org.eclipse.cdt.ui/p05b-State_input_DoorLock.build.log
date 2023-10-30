@@ -1,0 +1,10 @@
+10:58:35 **** Incremental Build of configuration Debug for project p05b-State_input_DoorLock ****
+make all 
+arm-none-eabi-size   p05b-State_input_DoorLock.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13376	    112	   1536	  15024	   3ab0	p05b-State_input_DoorLock.elf
+Finished building: default.size.stdout
+ 
+
+10:58:35 Build Finished. 0 errors, 0 warnings. (took 232ms)
+

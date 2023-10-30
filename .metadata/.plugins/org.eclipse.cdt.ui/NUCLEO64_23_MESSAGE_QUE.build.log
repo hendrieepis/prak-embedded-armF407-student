@@ -1,0 +1,10 @@
+10:55:36 **** Incremental Build of configuration Debug for project NUCLEO64_23_MESSAGE_QUE ****
+make all 
+arm-none-eabi-size   NUCLEO64_23_MESSAGE_QUE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17196	    104	  17832	  35132	   893c	NUCLEO64_23_MESSAGE_QUE.elf
+Finished building: default.size.stdout
+ 
+
+10:55:36 Build Finished. 0 errors, 0 warnings. (took 180ms)
+

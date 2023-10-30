@@ -1,0 +1,10 @@
+10:55:35 **** Incremental Build of configuration Debug for project NUCLEO64_21_SIGNAL ****
+make all 
+arm-none-eabi-size   NUCLEO64_21_SIGNAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14456	     64	  17408	  31928	   7cb8	NUCLEO64_21_SIGNAL.elf
+Finished building: default.size.stdout
+ 
+
+10:55:35 Build Finished. 0 errors, 0 warnings. (took 182ms)
+

@@ -1,0 +1,10 @@
+10:58:21 **** Incremental Build of configuration Debug for project p01a-countingObject ****
+make all 
+arm-none-eabi-size   p01a-countingObject.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5500	     12	   1124	   6636	   19ec	p01a-countingObject.elf
+Finished building: default.size.stdout
+ 
+
+10:58:21 Build Finished. 0 errors, 0 warnings. (took 234ms)
+

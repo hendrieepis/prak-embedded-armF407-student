@@ -1,0 +1,7 @@
+10:42:36 **** Build of configuration Debug for project GPIO_EXTI ****
+make all 
+make: *** No rule to make target '/home/hendri/MyWorkspace/Src/main.c', needed by 'Example/User/main.o'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:42:36 Build Failed. 1 errors, 0 warnings. (took 182ms)
+

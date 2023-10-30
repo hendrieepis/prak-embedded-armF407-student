@@ -1,0 +1,10 @@
+10:55:36 **** Incremental Build of configuration Debug for project NUCLEO64_RTOS-MultiLED_blinky ****
+make all 
+arm-none-eabi-size   NUCLEO64_RTOS-MultiLED_blinky.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10252	     24	  17400	  27676	   6c1c	NUCLEO64_RTOS-MultiLED_blinky.elf
+Finished building: default.size.stdout
+ 
+
+10:55:37 Build Finished. 0 errors, 0 warnings. (took 181ms)
+

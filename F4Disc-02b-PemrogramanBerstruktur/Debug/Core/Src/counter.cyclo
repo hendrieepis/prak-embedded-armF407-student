@@ -1,0 +1,3 @@
+../Core/Src/counter.c:13:10:counterShow	1
+../Core/Src/counter.c:24:6:CounterUpdate	1
+../Core/Src/counter.c:28:6:CounterZero	1
