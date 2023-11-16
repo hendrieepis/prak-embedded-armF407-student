@@ -1,9 +1,0 @@
-../Core/Src/seos.c:27:6:HAL_TIM_PeriodElapsedCallback	2
-../Core/Src/seos.c:35:6:MX_TIM2_Init	4
-../Core/Src/seos.c:76:6:hSCH_init	1
-../Core/Src/seos.c:83:6:hSCH_Start	1
-../Core/Src/seos.c:88:9:hSCH_Add_Task	4
-../Core/Src/seos.c:114:6:hSCH_Dispatch_Tasks	5
-../Core/Src/seos.c:142:9:hSCH_Delete_Task	2
-../Core/Src/seos.c:165:6:hSCH_Update	7
-../Core/Src/seos.c:211:6:hSCH_Report_Status	1
