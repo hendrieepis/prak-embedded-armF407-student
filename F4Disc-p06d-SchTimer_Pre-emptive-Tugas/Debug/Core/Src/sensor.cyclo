@@ -1,0 +1,4 @@
+../Core/Src/sensor.c:11:15:sensorDetected	3
+../Core/Src/sensor.c:25:9:sensorDetectedTimeout	5
+../Core/Src/sensor.c:54:15:resetDetected	3
+../Core/Src/sensor.c:69:9:resetDetectedTimeout	5

@@ -1,0 +1,4 @@
+../Core/Src/task.c:27:6:task1_update	1
+../Core/Src/task.c:32:6:task2_update	5
+../Core/Src/task.c:65:6:task3_update	3
+../Core/Src/task.c:83:6:task4_update	3

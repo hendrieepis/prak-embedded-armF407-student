@@ -64,8 +64,8 @@ all: main-build
 main-build: F4Disc-00j-blinkySystickBasic-withoutInterrrupt.elf secondary-outputs
 
 # Tool invocations
-F4Disc-00j-blinkySystickBasic-withoutInterrrupt.elf F4Disc-00j-blinkySystickBasic-withoutInterrrupt.map: $(OBJS) $(USER_OBJS) /home/hendri/MyWorkspace/workspaceAC6-F407/F4Disc-00j-blinkySystickBasic-withoutInterrrupt/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "F4Disc-00j-blinkySystickBasic-withoutInterrrupt.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/hendri/MyWorkspace/workspaceAC6-F407/F4Disc-00j-blinkySystickBasic-withoutInterrrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F4Disc-00j-blinkySystickBasic-withoutInterrrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+F4Disc-00j-blinkySystickBasic-withoutInterrrupt.elf F4Disc-00j-blinkySystickBasic-withoutInterrrupt.map: $(OBJS) $(USER_OBJS) /home/hendri/MyWorkspace/workspaceAC6-F407-Student/F4Disc-00j-blinkySystickBasic-withoutInterrrupt/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "F4Disc-00j-blinkySystickBasic-withoutInterrrupt.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/hendri/MyWorkspace/workspaceAC6-F407-Student/F4Disc-00j-blinkySystickBasic-withoutInterrrupt/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F4Disc-00j-blinkySystickBasic-withoutInterrrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
